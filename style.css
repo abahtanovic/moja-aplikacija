@@ -1,0 +1,112 @@
+/* Reset i osnova */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    color: #333;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Naslov */
+  h1 {
+    margin-bottom: 30px;
+    color: #4b0082;
+    font-size: 36px;
+  }
+  
+  /* Forma za unos zadatka */
+  form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  button {
+    background-color: #4b0082;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #37006b;
+  }
+  
+  /* Lista zadataka */
+  #taskList {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Stil pojedinačnog zadatka */
+  .task {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    transition: background-color 0.3s ease;
+  }
+  
+  .task h3 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .task p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Stil dovršenog zadatka */
+  .completed {
+    background-color: #d4edda !important;
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  /* Dugmad za akcije */
+  .task button {
+    margin-top: 10px;
+    background-color: #28a745;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  
+  .task button:hover {
+    background-color: #218838;
+  }
+  
