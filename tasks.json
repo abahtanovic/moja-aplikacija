@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0029633f-c4be-4f6c-ab0d-2842da4fef10",
+    "subject": "Engleski",
+    "deadline": "2025-02-12",
+    "description": "Dovršiti esej",
+    "completed": true
+  },
+  {
+    "id": "163a8a2f-d9dd-437e-ad9b-c40be8852e44",
+    "subject": "Engleski",
+    "deadline": "2025-04-19",
+    "description": "Prezentacija",
+    "completed": true
+  },
+  {
+    "id": "0d66fa08-27e4-4077-9376-69e75f3f0f6c",
+    "subject": "Matematika",
+    "deadline": "2025-04-12",
+    "description": "Seminarski rad",
+    "completed": true
+  },
+  {
+    "id": "895ab822-a54b-4d1e-9c27-8847c261cc2a",
+    "subject": "Hemija",
+    "deadline": "2025-04-26",
+    "description": "Uraditi istraživački rad",
+    "completed": false
+  }
+]
